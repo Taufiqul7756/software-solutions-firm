@@ -1,14 +1,5 @@
 import React from "react";
 import { FaApple } from "react-icons/fa6";
-// import intel from "../assets/icons/intel.ico";
-// import ipsum from "../assets/icons/ipsum.png";
-// import client2 from "../assets/icons/client 2.png";
-// import client3 from "../assets/icons/client 3.png";
-// import client4 from "../assets/icons/client 4.png";
-// import client6 from "../assets/icons/client 6.png";
-// import client7 from "../assets/icons/client 7.png";
-// import client8 from "../assets/icons/client 8.png";
-
 import sepa from "../assets/icons/sepa.png";
 import yolo from "../assets/icons/yolo.png";
 // import notion from "../assets/icons/notion.svg";
@@ -26,7 +17,7 @@ const Client = () => {
           {" "}
           Our Clients
         </h2>
-        <p className="text-4xl text-NeutralGrey">
+        <p className="text-xl text-NeutralGrey">
           We have been working with some Fortune 500+ clients
         </p>
         <div className="my-12 flex flex-wrap justify-between items-center gap-28">
