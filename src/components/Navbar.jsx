@@ -33,7 +33,7 @@ const Navbar = () => {
     { link: "Home", path: "Home" },
     { link: "Service", path: "service" },
     { link: "About", path: "about" },
-    { link: "Product", path: "product" },
+    { link: "Products", path: "products" },
     { link: "Testimonial", path: "testimonial" },
     { link: "FAQ", path: "faq" },
   ];
@@ -42,7 +42,7 @@ const Navbar = () => {
     <header className=" w-full bg-white md:bg-transparent fixed top-0 right-0">
       <nav
         className={`py-4 lg:px-14 px-4 ${
-          isSticky ? "sticky top-0 left-0 border-bg-white" : ""
+          isSticky ? "sticky top-0 left-0 border bg-white" : ""
         }`}
       >
         <div className="flex justify-between items-center text-base gap-8 duration-300">
@@ -56,7 +56,7 @@ const Navbar = () => {
               alt=""
               className=" w-10 inline-block items-center"
             />{" "}
-            <span className="text-[#263238] ">TAUFIQ</span>
+            <span className="text-[#263238] ">WeStrike</span>
           </a>
 
           {/* Navbar for Desktop Version  : space-x-12*/}
