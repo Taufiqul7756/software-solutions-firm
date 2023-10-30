@@ -1,0 +1,4 @@
+*** Lets setup the colors for the projects.
+## lets use the colors 
+
+Step 2: Setup Google fonts
