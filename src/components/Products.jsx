@@ -58,6 +58,10 @@ const Products = () => {
                 {services.title}
               </h4>
               <p className="text-sm text-NeutralGrey">{services.description}</p>
+
+              <button className="px-5 mt-3 py-2 text-sm cursor-pointer  bg-BrandPrimary text-white  hover:bg-NeutralD_Grey rounded transition-all duration-300">
+                Request Demo
+              </button>
             </div>
           </div>
         ))}
