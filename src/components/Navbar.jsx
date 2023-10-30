@@ -56,7 +56,7 @@ const Navbar = () => {
               alt=""
               className=" w-10 inline-block items-center"
             />{" "}
-            <span className="text-[#263238] ">WeStrike</span>
+            <span className="text-[#263238] ">weStrike</span>
           </a>
 
           {/* Navbar for Desktop Version  : space-x-12*/}
@@ -83,7 +83,7 @@ const Navbar = () => {
               href="/"
               className="hidden lg:flex items-center text-BrandPrimary hover:text-Gray "
             >
-              login
+              Login
             </a>
             <button className="bg-BrandPrimary text-white py-2 px-4 transition-all duration-300 rounded hover:bg-NeutralD_Grey">
               {" "}
