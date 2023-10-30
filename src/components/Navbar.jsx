@@ -93,10 +93,34 @@ const Navbar = () => {
           {/* Menu for Mobile Version  :*/}
 
           <div className="md:hidden">
-            <button className=" text-NeutralD_Grey focus:outline-none">
+            <button
+              onClick={toggleMenuOpen}
+              className=" text-NeutralD_Grey focus:outline-none"
+            >
               {isMenuOpen ? <FaXmark className="h-6 w-6" /> : <FaBars />}
             </button>
           </div>
+        </div>
+
+        {/* NavItems for mobile devices  */}
+        <div
+          className={`space-y-4 px-4 mt-16 py-7 bg-BrandPrimary  ${
+            isMenuOpen ? "block fixed top-0 right-0 left-0" : "hidden"
+          } `}
+        >
+          {navItems.map(({ link, path }) => (
+            <Link
+              to={path}
+              spy={true}
+              smooth={true}
+              offset={-100}
+              key={path}
+              className="block text-base text-Gray hover:text-BrandPrimary "
+            >
+              {" "}
+              {link}
+            </Link>
+          ))}
         </div>
       </nav>
     </header>
