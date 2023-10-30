@@ -3,32 +3,52 @@ import erp from "../assets/services-logo/erp1.png";
 import web from "../assets/services-logo/web-design.png";
 import pos from "../assets/services-logo/pos.png";
 import ai from "../assets/services-logo/ai.png";
+import cyberSecurity from "../assets/services-logo/cyber-security.png";
+import seo from "../assets/services-logo/seo.png";
 
 const Services = () => {
   const services = [
     {
       id: 1,
-      title: "WebDevelopment Solutions",
-      description: "Our Web Services is well reputed.",
+      title: "WebDevelopment ",
+      description:
+        "We specialize in creating custom web solutions tailored to your unique needs. Whether it's a corporate website, an e-commerce platform, or a web application, our team delivers top-notch web development services.",
       image: web,
     },
     {
       id: 2,
       title: "ERP/CRM Solutions",
-      description: "Our Web Services is well reputed.",
+      description:
+        "Our ERP/CRM software streamlines your business operations, from managing resources and enhancing productivity to building stronger customer relationships. Experience a new level of efficiency with WeStrike.",
       image: erp,
     },
     {
       id: 3,
-      title: "WeStrike POS",
-      description: "Our Web Services is well reputed.",
+      title: "POS Solutions",
+      description:
+        "Our point of sale (POS) system is designed to help retailers manage sales, inventory, and customer data efficiently. It's the ultimate solution for simplifying your retail business operations.",
       image: pos,
     },
     {
       id: 4,
       title: "AI/ML Solutions",
-      description: "Our Web Services is well reputed.",
+      description:
+        "Harness the power of advanced Artificial Intelligence and Machine Learning solutions. Our experts will help you unlock valuable insights, automate processes, and make data-driven decisions like never before.",
       image: ai,
+    },
+    {
+      id: 5,
+      title: "Cyber Security",
+      description:
+        "Protect your digital assets with our comprehensive cybersecurity services. From threat detection and prevention to security assessments, we keep your data safe in an increasingly interconnected world.",
+      image: cyberSecurity,
+    },
+    {
+      id: 6,
+      title: "SEO Solutions",
+      description:
+        "Boost your online presence with our SEO solutions. We'll optimize your website for search engines, improve your rankings, and drive organic traffic to your business, resulting in greater visibility and success.",
+      image: seo,
     },
   ];
   return (
