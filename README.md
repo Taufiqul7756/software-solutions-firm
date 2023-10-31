@@ -16,9 +16,6 @@ strategic IT partner for innovation and success.
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
-- [Usage](#usage)
-- [Deployment](#deployment)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Introduction
@@ -68,3 +65,7 @@ strategic IT partner for innovation and success.
    ```shell
    npm run dev
    ```
+
+##Lisence
+
+`<weStrike>`, `<https://github.com/Taufiqul7756/weStrike-Software-Company>`, and `[weStrike]`
