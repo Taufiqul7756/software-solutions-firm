@@ -1,6 +1,13 @@
 # Your Project Name
 
-A brief description of your project.
+weStrike is a dynamic software company with a proven track record
+of excellence. With over 500 projects successfully completed, we
+offer a wide range of services, including web development,
+cybersecurity, ERM/CRM solutions, AI/ML solutions, SEO expertise,
+and POS solutions. Our team of over 80 IT professionals
+collaborates with 5+ tech partners to provide cutting-edge,
+tailored solutions for your business. Trust weStrike to be your
+strategic IT partner for innovation and success.
 
 ## Table of Contents
 
@@ -16,7 +23,14 @@ A brief description of your project.
 
 ## Introduction
 
-Provide an introduction to your project. Explain what it does and why it's useful.
+weStrike is a dynamic software company with a proven track record
+of excellence. With over 500 projects successfully completed, we
+offer a wide range of services, including web development,
+cybersecurity, ERM/CRM solutions, AI/ML solutions, SEO expertise,
+and POS solutions. Our team of over 80 IT professionals
+collaborates with 5+ tech partners to provide cutting-edge,
+tailored solutions for your business. Trust weStrike to be your
+strategic IT partner for innovation and success.
 
 ## Technologies
 
@@ -41,3 +55,8 @@ Provide an introduction to your project. Explain what it does and why it's usefu
    ```shell
    git clone <repository_url>
    ```
+
+   cd <project_directory>
+   npm install
+
+   npm run dev
