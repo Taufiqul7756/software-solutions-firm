@@ -7,7 +7,10 @@ import completed from "../assets/stats/completed.png";
 
 const CompanyStats = () => {
   return (
-    <div className="px-4 lg:px-14 max-w-screen-2xl mx-auto bg-NeutralSilver py-16 ">
+    <div
+      className="px-4 lg:px-14 max-w-screen-2xl mx-auto bg-NeutralSilver py-16 "
+      id="companyStats"
+    >
       <div className="flex flex-col md:flex-row justify-between items-center gap-8">
         <div className="md:w-1/2">
           <h2 className="text-4xl text-NeutralD_Grey font-semibold mb-4 md:w-2/3 ">

@@ -52,7 +52,7 @@ const Services = () => {
     },
   ];
   return (
-    <div className="m-5">
+    <div className="m-5" id="service">
       <div className="text-center my-8 ">
         <h2 className="text-4xl text-NeutralD_Grey font-semibold mb-2">
           {" "}

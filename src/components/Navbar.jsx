@@ -30,12 +30,12 @@ const Navbar = () => {
 
   // navItems Array
   const navItems = [
-    { link: "Home", path: "Home" },
+    { link: "Home", path: "home" },
     { link: "Service", path: "service" },
-    { link: "About", path: "about" },
+    { link: "About", path: "productsDetails" },
     { link: "Products", path: "products" },
     { link: "Testimonial", path: "testimonial" },
-    { link: "FAQ", path: "faq" },
+    { link: "Blogs", path: "blogs" },
   ];
 
   return (
@@ -48,7 +48,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center text-base gap-8 duration-300">
           <a
             href=""
-            className="text-2xl font-semibold flex items-center space-x "
+            className="text-2xl font-semibold flex items-center space-x-3 "
           >
             {" "}
             <img
@@ -61,7 +61,7 @@ const Navbar = () => {
 
           {/* Navbar for Desktop Version  : space-x-12*/}
 
-          <ul className="md:flex space-x-12 hidden ">
+          <ul className="md:flex space-x-12 hidden cursor-pointer ">
             {navItems.map(({ link, path }) => (
               <Link
                 to={path}
@@ -115,7 +115,7 @@ const Navbar = () => {
               smooth={true}
               offset={-100}
               key={path}
-              className="block text-base text-Gray hover:text-BrandPrimary "
+              className="block text-base text-Gray hover:text-white "
             >
               {" "}
               {link}

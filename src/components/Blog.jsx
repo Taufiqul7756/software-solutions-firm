@@ -29,7 +29,7 @@ const Blog = () => {
   ];
 
   return (
-    <div className="px-4 lg:px-14 max-w-screen-2xl mx-auto my-12">
+    <div className="px-4 lg:px-14 max-w-screen-2xl mx-auto my-12" id="blogs">
       <div className="text-center md:w-1/2 mx-auto ">
         <h2 className="text-4xl text-NeutralD_Grey font-semibold mb-4">
           LATEST BLOGS- <span className="text-BrandPrimary">weStrike</span>
