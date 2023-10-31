@@ -5,8 +5,9 @@ import Navbar from "./components/Navbar";
 import Client from "./components/Client";
 import Services from "./components/Services";
 import Products from "./components/Products";
-import About from "./components/About";
+import ProductDetails from "./components/ProductDetails";
 import CompanyStats from "./components/CompanyStats";
+import Blog from "./components/Blog";
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
       <Client />
       <Products />
       <CompanyStats />
-      <About />
+      <ProductDetails />
+      <Blog />
     </>
   );
 }
