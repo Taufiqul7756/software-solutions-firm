@@ -9,6 +9,7 @@ import ProductDetails from "./components/ProductDetails";
 import CompanyStats from "./components/CompanyStats";
 import Blog from "./components/Blog";
 import NewsLetter from "./components/NewsLetter";
+import MyFooter from "./components/MyFooter";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <ProductDetails />
       <Blog />
       <NewsLetter />
+      <MyFooter />
     </>
   );
 }
