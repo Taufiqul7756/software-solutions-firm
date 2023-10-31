@@ -1,4 +1,4 @@
-# Your Project Name
+# weStrike
 
 weStrike is a dynamic software company with a proven track record
 of excellence. With over 500 projects successfully completed, we
