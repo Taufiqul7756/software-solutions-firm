@@ -47,6 +47,7 @@ strategic IT partner for innovation and success.
 ### Prerequisites
 
 - Node.js: Make sure you have Node.js installed on your system.
+- npm: Make sure you have npm installed on your system.
 
 ### Installation
 
