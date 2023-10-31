@@ -15,7 +15,7 @@ const Client = () => {
       <div className="text-center my-8 ">
         <h2 className=" text-4xl text-NeutralD_Grey font-semibold mb-2">
           {" "}
-          Our Clients
+          OUR VALUABLE CLIENTS
         </h2>
         <p className="text-xl text-NeutralGrey">
           We have been working with some Fortune 500+ clients
