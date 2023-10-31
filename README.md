@@ -56,7 +56,14 @@ strategic IT partner for innovation and success.
    git clone <repository_url>
    ```
 
+   ```shell
    cd <project_directory>
-   npm install
+   ```
 
+   ```shell
+   npm install
+   ```
+
+   ```shell
    npm run dev
+   ```
