@@ -66,6 +66,8 @@ strategic IT partner for innovation and success.
    npm run dev
    ```
 
-##Lisence
+## license
 
-`<weStrike>`, `<https://github.com/Taufiqul7756/weStrike-Software-Company>`, and `[weStrike]`
+`<weStrike>`,
+`<https://github.com/Taufiqul7756/weStrike-Software-Company>`,
+and `[weStrike]`
