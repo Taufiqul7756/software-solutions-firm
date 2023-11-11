@@ -7,7 +7,7 @@ cybersecurity, ERM/CRM solutions, AI/ML solutions, SEO expertise,
 and POS solutions. Our team of over 80 IT professionals
 collaborates with 5+ tech partners to provide cutting-edge,
 tailored solutions for your business. Trust weStrike to be your
-strategic IT partner for innovation and success.
+strategic IT partner for innovation and success..
 
 ## Table of Contents
 
